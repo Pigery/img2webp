@@ -1,0 +1,12 @@
+[project]
+name = "img2webp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "imageio-ffmpeg>=0.6.0",
+    "pillow>=12.0.0",
+    "pyinstaller>=6.17.0",
+    "pyqt6>=6.10.1",
+]

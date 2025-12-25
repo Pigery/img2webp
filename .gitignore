@@ -1,0 +1,42 @@
+# Python 构建产物
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# uv 缓存与虚拟环境
+.uv/
+.venv/
+venv/
+env/
+ENV/
+
+# 日志与本地配置
+*.log
+.env
+*.env.*
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 测试与覆盖率
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
